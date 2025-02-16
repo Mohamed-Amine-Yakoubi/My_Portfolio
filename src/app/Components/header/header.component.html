@@ -1,0 +1,103 @@
+<div class="header">
+<nav class="bg-transparent">
+  <div
+    class="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto py-4 px-10"
+  >
+    <div class="text-gradient">
+      <h1 class="logo_title leading-[20px] pt-2">
+        Yakoubi<br /><span class="text-white text-[16.5px] font-medium"
+          >Mohamed Amine</span
+        >
+      </h1>
+    </div>
+    <button
+      data-collapse-toggle="navbar-default"
+      type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="navbar-default"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-5 h-5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 17 14"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M1 1h15M1 7h15M1 13h15"
+        />
+      </svg>
+    </button>
+    <div
+      class="border-gradient px-12 py-2 hidden w-full md:block md:w-auto"
+      id="navbar-default"
+    >
+      <ul
+        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0"
+      >
+        <li>
+          <a href="#" class="title_1" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="title_1">Experience</a>
+        </li>
+        <li>
+          <a href="#" class="title_1">Projects</a>
+        </li>
+        <li>
+          <a href="#" class="title_1">Skills</a>
+        </li>
+        <li>
+          <a href="#" class="title_1">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class=" ">
+  <div class="grid md:grid-cols-2 gap-2 py-[80px] px-10 md:py-0 flex flex-col md:flex-row items-center">
+    <!-- Image Section (Appears on top in small screens) -->
+    <div class="w-full flex justify-center items-center md:order-2 order-1">
+        <img
+            [ngSrc]="imagePath"
+            width="500"
+            height="300"
+            priority
+            alt="amine"
+        />
+    </div>
+
+    <!-- Text Section -->
+    <div class="flex flex-col justify-center text-center md:text-start col-span-2 md:col-span-1 order-2 md:order-1">
+        <div>
+            <h1 class="text-white md:text-[50px] text-[70px] font-extrabold">
+                Hi, It’s <span class="text-gradient logo_title">Med Amine</span>
+            </h1>
+            <h4 class="text-white text-[40px] font-extrabold">
+                I’m <span class="text-gradient logo_title">Web Developer</span>
+            </h4>
+        </div>
+        <p class="text-[#7B7B7B] my-[60px] md:my-8 md:text-[15px] text-[30px]">
+            Aspiring Web Developer, Front-end and back-end web development skills,
+            combined with a strong desire to learn and contribute positively to a
+            professional environment. Ready to put my knowledge into practice to
+            support innovative projects.
+        </p>
+        <div class="text-gradient space-x-8">
+            <i class="fa-brands logo_title fa-linkedin-in rounded-[50px] !text-[50px] md:!text-[27px]"></i>
+            <i class="fa-brands fa-github logo_title rounded-[50px] !text-[50px] md:!text-[27px]"></i>
+            <i class="fa-solid fa-phone logo_title rounded-[50px] !text-[50px] md:!text-[27px]"></i>
+            <i class="fa-solid fa-envelope logo_title rounded-[50px] !text-[50px] md:!text-[27px]"></i>
+        </div>
+    </div>
+</div>
+
+</section>
+</div>

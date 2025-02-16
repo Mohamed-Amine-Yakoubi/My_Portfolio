@@ -1,0 +1,77 @@
+<section class="my-[130px] space-y-3 flex flex-col items-center">
+  <div>
+    <h4 class="subtitle">Education and Work Experience</h4>
+    <h1 class="title">My Journey</h1>
+  </div>
+  <div class="py-3">
+    <div class="vertical_ligne"></div>
+  </div>
+  <div  >
+    <div class="space-x-4">
+    <button
+      type="submit"
+      (click)="ShowExperience()"
+      [ngClass]="Experience ? 'button' : 'button_disabled'"
+    >
+      Experience
+    </button>
+    <button
+      type="submit"
+      (click)="ShowEducation()"
+      [ngClass]="Education ? 'button' : 'button_disabled'"
+    >
+      Education
+    </button>
+  </div>
+    <div *ngIf="Experience" class="my-div text-white">
+      <p class="text-white">This is the experience.</p>
+    </div>
+
+    <div *ngIf="Education" class="my-div">
+      <p class="text-white">This is education.</p>
+    </div>
+  </div>
+
+
+  <section className="py-5">
+    <div class="main">
+
+      <div class="container">
+          <ul>
+              <li>
+                  <h3 class="heading">Bachelor's Final Project</h3>
+                  <p>intership PFE - Development of an E-commerce Website for Online Sales</p>
+                  <p>February 2022 - May 2022</p>
+                  <a href="#">Read More ></a>
+
+                  <span class="circle"></span>
+              </li>
+              <li>
+                  <h3 class="heading">BackEnd Developer</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                  totam </p>
+                  <a href="#">Read More ></a>
+
+                  <span class="circle"></span>
+              </li>
+              <li>
+                  <h3 class="heading">Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                  totam </p>
+                  <a href="#">Read More ></a>
+
+                  <span class="circle"></span>
+              </li>
+              <li>
+                  <h3 class="heading">App Developer</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                  totam </p>
+                  <a href="#">Read More ></a>
+
+                  <span class="circle"></span>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </section>
+</section>

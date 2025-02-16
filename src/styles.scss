@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+body {
+  background-color: #161618;
+}
+
+
+.subtitle {
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 25px;
+  @media (min-width: 768px) {
+    font-size: 13px;
+  }
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight:bolder;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+.vertical_ligne{
+  height: 50px;
+  width: 10px;
+  background: linear-gradient(to bottom, #00adcb, #019e66);
+  border-radius: 50px;
+  @media (min-width: 768px) {
+    height: 38px;
+    width: 5px;
+  }
+}
+
+
+.button{
+  background: linear-gradient(to bottom, #00adcb, #019e66);
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 6px;
+}
+
+.button_disabled{
+  background: #414141;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 6px;
+}
