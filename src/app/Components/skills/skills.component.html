@@ -1,0 +1,22 @@
+<section class="my-[130px] space-y-3 flex flex-col items-center">
+  <div>
+    <h1 class="title">Skills</h1>
+  </div>
+  <div class="py-3">
+    <div class="vertical_ligne"></div>
+  </div>
+
+  <div class="w-full  relative">
+    <div class="scrollable-container   w-full p-4">
+      <div class="grid grid-flow-col grid-rows-2 gap-4 w-max">
+        <div
+          *ngFor="let item of Data"
+          class="flex flex-col items-center border-hover icon px-[110px] py-[25px] !rounded-[8px] min-w-[200px]"
+        >
+          <div [innerHTML]="item.icon" class="icon-svg "></div>
+          <h4 class="text-white font-bold text-[14px] mt-3">{{ item.title }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

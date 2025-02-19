@@ -1,0 +1,69 @@
+{
+  "Journey": [
+    {
+      "Id": 1,
+      "Title": "Bachelor's Final Project",
+      "Description": "intership PFE - Development of an E-commerce Website for Online Sales",
+      "Date": "Internship : February 2022 - May 2022",
+      "Tasks": [
+        "Optimize the user interface for a smooth and responsive experience",
+        "Designed interactive tools to improve user engagement",
+        "Implementation of key features : user management , shopping cart"
+      ],
+      "Skills": "Angular , Php , Bootstrap , AdobeXD , Git , MySql"
+    },
+    {
+      "Id": 2,
+      "Title": "Academic project",
+      "Description": "Creation of a visitor access management system",
+      "Date": "April 2023 - May 2023",
+      "Tasks": [
+        "Created an access management system with roles and permissions",
+        "Implemented a visitor registration interface",
+        "Secure data with strong authentication"
+      ],
+      "Skills": "Angular , Node Js , Bootstrap , Git , MongoDB"
+    },
+    {
+      "Id": 3,
+      "Title": "Academic project",
+      "Description": "Creation of an e-commerce website for advertisements",
+      "Date": "November 2023 - January 2024",
+      "Tasks": [
+        "Developed an ad site with user and product management",
+        "Implemented a search and filtering system for ads",
+        "Optimized ad display for smooth navigation"
+      ],
+      "Skills": "ReactJs, Node Js , Bootstrap , Git , MongoDB"
+    },
+    {
+      "Id": 4,
+      "Title": "Master's Final Project",
+      "Description": "Design and Development of an Online Platform for Selling Spare Parts",
+      "Date": "Intership : April 2024 - August 2024",
+      "Tasks": [
+        "Designed and developed a platform dedicated to spare parts",
+        "Implemented order and supplier management",
+        "Improved the interface with a product filtering system"
+      ],
+      "Skills": "NexJs, Node Js ,ExpressJs, tailwind Css , Git , PostgresSql"
+    }
+  ],
+  "Education": [
+    {
+      "Id": 1,
+      "Title": "Bachelor's degree in Multimedia Communication",
+      "Description": "Higher Institute of Multimedia Arts of Mannouba",
+      "Date": "2019-2022"
+
+    },
+    {
+      "Id": 2,
+      "Title": "Professional Masters in Media Engineering",
+      "Description": "Higher Institute of Multimedia Arts of Mannouba",
+      "Date": "2022-2024"
+
+    }
+
+  ]
+}

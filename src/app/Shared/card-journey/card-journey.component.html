@@ -1,0 +1,43 @@
+<div class="main">
+  <div class="container">
+ <ul>
+  <li
+  *ngFor="let card of cards"
+  class="border-gradient text-gradient space-y-2"
+>
+  <h4 class="logo_title !text-[20px] !font-black">{{ card.Title }}</h4>
+  <p class="text-white !text-[15px] font-bold">
+    {{ card.Description }}
+  </p>
+  <p class="text-[#7b7b7b] text-[14px]">{{ card.Date }}</p>
+
+  <div *ngIf="expandedId === card.Id">
+    <div
+      class="text-white text-[15px] font-normal "
+      *ngFor="let task of card.Tasks"
+    >
+      <p>
+        {{ task }}
+      </p>
+    </div>
+    <p class="font-extrabold text-[15px] mt-2">
+      Skills :
+      <span class="text-[#7b7b7b] font-normal">{{ card.Skills }}</span>
+    </p>
+  </div>
+
+  <div class="flex justify-start mt-5">
+    <button class="button" (click)="toggleShow(card.Id)">
+      {{ expandedId === card.Id ? "See Less" : "See More" }}
+      <i
+        class="fa-solid"
+        [ngClass]="expandedId === card.Id ? 'fa-caret-up' : 'fa-caret-down'"
+      ></i>
+    </button>
+  </div>
+  <span class="circle"></span>
+</li>
+
+ </ul>
+  </div>
+</div>

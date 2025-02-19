@@ -1,0 +1,22 @@
+<div class="main">
+  <div class="container">
+    <ul>
+      <li
+        *ngFor="let card of cards"
+        class="border-gradient text-gradient space-y-2 gap"
+      >
+        <p>
+          <i class="fa-sharp-duotone fa-solid fa-graduation-cap"></i>
+        </p>
+        <h4 class="logo_title !text-[20px] !font-black">{{ card.Title }}</h4>
+        <p class="text-[#7b7b7b] text-[14px]">{{ card.Date }}</p>
+
+        <p class="text-white !text-[15px] font-bold">
+          {{ card.Description }}
+        </p>
+
+        <span class="circle"></span>
+      </li>
+    </ul>
+  </div>
+</div>

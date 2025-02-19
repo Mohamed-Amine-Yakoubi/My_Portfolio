@@ -2,19 +2,7 @@
   background: linear-gradient(144deg ,  #302F32 0%, #161618 60%);
 }
 
-.text-gradient {
 
-  background: linear-gradient(to right, #00adcb, #019e66);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  .logo_title {
-    font-size: 35px;
-    font-weight:bolder;
-  }
-
-
-}
 .title_1{
   color: white;
   font-weight:400;
@@ -31,17 +19,7 @@
 
   }
 }
-.border-gradient {
 
-  border:  solid 1px transparent;
-  border-radius: 80px;
-  background-image: linear-gradient(#161618, #161618), radial-gradient(circle at top left, #00adcb,#019e66);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-   box-shadow:
-    1px 1px 4px rgba(0, 173, 203, 0.4), // Ombre avec la couleur #00adcb
-    -1px -1px 4px rgba(1, 158, 102, 0.4); // Ombre avec la couleur #019e66
-}
 
 
 /* HTML: <div class="cloud"></div> */

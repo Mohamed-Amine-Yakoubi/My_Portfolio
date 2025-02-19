@@ -1,0 +1,56 @@
+<div
+  class="w-full  md:w-[500px]  h-auto rounded-[10px] overflow-hidden shadow-lg border border-gray-500"
+>
+  <img
+    class="w-full h-[300px] object-cover object-top"
+    [src]="image"
+    alt="Sunset in the mountains"
+  />
+  <div class="px-6 py-4 text-gradient">
+    <div class="font-bold text-xl mb-2">{{ title }}</div>
+    <p class="text-[#7b7b7b] text-[14px] text-base">
+      {{ description }}
+    </p>
+  </div>
+  <div class="px-6  pb-6 flex justify-between items-center">
+    <div class="flex space-x-3">
+    <div class="border-gradient p-2 p-2">
+      <div
+        class="inline-block rounded-full "
+        [innerHTML]="icon1"
+        class="icon"
+      ></div>
+    </div>
+    <div class="border-gradient p-2">
+      <div
+        class="inline-block bg-gray-200 border-gradient p-2 rounded-full p-3"
+        [innerHTML]="icon2"
+        class="icon"
+      ></div>
+    </div>
+    <div class="border-gradient p-2">
+      <div
+        class="inline-block bg-gray-200 border-gradient p-2 rounded-full p-3"
+        [innerHTML]="icon3"
+        class="icon"
+      ></div>
+    </div>
+    <div class="border-gradient p-2">
+      <div
+        class="inline-block bg-gray-200 border-gradient p-2 rounded-full p-3"
+        [innerHTML]="icon4"
+        class="icon"
+      ></div></div>
+      <div class="border-gradient p-2">
+        <div
+          class="inline-block bg-gray-200 border-gradient p-2 rounded-full p-3"
+          [innerHTML]="icon5"
+          class="icon"
+        ></div>
+      </div>
+    </div>
+      <div>
+      <button class="button"  (click)="goToGitHub()" target="_blank">Code<i class="fa-solid fa-code px-2"></i></button>
+    </div>
+  </div>
+</div>

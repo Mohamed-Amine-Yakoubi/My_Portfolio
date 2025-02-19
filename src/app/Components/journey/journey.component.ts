@@ -1,13 +1,17 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { CardJourneyComponent } from '../../Shared/card-journey/card-journey.component';
+import { CardEducationComponent } from '../../Shared/card-education/card-education.component';
+
 
 @Component({
   selector: 'app-journey',
-  imports: [CommonModule],
+  imports: [CommonModule,CardJourneyComponent,CardEducationComponent ],
   templateUrl: './journey.component.html',
   styleUrl: './journey.component.scss',
 })
 export class JourneyComponent {
+
 
   Experience: boolean = true;
   Education: boolean = false;
@@ -19,6 +23,6 @@ export class JourneyComponent {
   ShowEducation() {
     this.Education =true ;
     this.Experience =false ;
-
   }
+
 }

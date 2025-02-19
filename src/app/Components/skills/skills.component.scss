@@ -1,0 +1,68 @@
+.border-hover {
+  border: solid 1px rgb(107, 107, 107);
+  border-radius: 80px;
+
+  &:hover {
+    border: solid 1px transparent;
+    background-image: linear-gradient(#161618, #161618), radial-gradient(circle at top left, #00adcb, #019e66);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow:
+      1px 1px 4px rgba(0, 173, 203, 0.6), /* Ombre avec la couleur #00adcb */
+      -1px -1px 4px rgba(1, 158, 102, 0.6); /* Ombre avec la couleur #019e66 */
+  }
+
+  .icon {
+    scale: 4px;
+  }
+}
+
+
+
+.scrollable-container::-webkit-scrollbar {
+  width: 12px; /* Largeur personnalisée de la barre de défilement */
+}
+
+.scrollable-container:hover::-webkit-scrollbar {
+  display: block; /* Afficher la barre de défilement au survol */
+  width: 12px; /* Largeur personnalisée pour la barre de défilement */
+  background-color: transparent;
+}
+
+.scrollable-container:hover::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #00adcb, #019e66);
+  border-radius: 10px;
+}
+
+/* Masquer la barre de défilement par défaut */
+.scrollbar-hide {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  overflow-x: hidden; /* Masquer le défilement au départ */
+}
+
+/* Conteneur avec défilement horizontal activé */
+.scrollable-container {
+  overflow-x: auto; /* Permet le défilement horizontal */
+}
+
+/* Masquer la barre de défilement mais activer le défilement au survol */
+.scrollable-container::-webkit-scrollbar {
+  display: none; /* Masquer la barre de défilement */
+}
+
+.scrollable-container:hover::-webkit-scrollbar {
+  display: block; /* Afficher la barre de défilement au survol */
+  height: 8px;
+  background-color: transparent;
+
+}
+
+.scrollable-container:hover::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #00adcb, #019e66);
+  border-radius: 10px;
+}
+.icon-svg {
+  width: 80px;  /* Set your desired width */
+  height: 80px; /* Set your desired height */
+}

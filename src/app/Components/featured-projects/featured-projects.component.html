@@ -1,0 +1,34 @@
+<section class="my-[130px] space-y-3 flex flex-col items-center">
+  <div>
+    <h4 class="subtitle">Explore some of my recent work and personal projects</h4>
+    <h1 class="title">Featured Projects</h1>
+  </div>
+  <div class="py-3">
+    <div class="vertical_ligne"></div>
+  </div>
+  <div class="flex md:flex-row flex-col md:space-x-8 space-x-0 space-y-8 my-8 md:mx-0 mx-8 ">
+    <app-cards
+      [title]="'autopro'"
+      [image]="Image_AutoPro"
+      [description]="
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s'
+      "
+      [icon1]="Data[8]?.icon"
+      [icon2]="Data[11]?.icon"
+      [icon3]="Data[14]?.icon"
+      [icon4]="Data[1]?.icon"
+      [icon5]="Data[9]?.icon"
+    >
+    </app-cards>
+    <app-cards
+      [title]="'decoriat'"
+      [image]="Image_decoriat"
+      [description]="
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s.'
+      "
+      [icon1]="Data[0]?.icon"
+    >
+    </app-cards>
+  </div>
+  <button class="button_cadre" (click)="goToGitHub()">View all</button>
+</section>
